@@ -1,0 +1,53 @@
+#manage-users-container{
+    background-color: #0f172acc;
+    width: 70vw;
+    max-width: 70vw;
+    min-height: 60vh;
+    padding: 1rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background : rgba(15, 23, 42, 0.5); /* Rappel du fond des autres conteneurs */
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Style des en-têtes (th) */
+th {
+    background-color: rgba(94, 94, 255, 0.2); /* Bleu identique à tes boutons avec transparence */
+    color: #5e5eff;
+    text-align: left;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #5e5eff;
+}
+
+/* Style des cellules de données (td) */
+td {
+    padding: 12px 15px;
+    color: #dedede; /* Gris clair présent dans ton profil */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 1rem;
+}
+
+/* Effet de survol sur les lignes pour faciliter la lecture */
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+    transition: background 0.2s ease;
+}
+
+/* Style spécifique pour la colonne Action */
+.link-color {
+    font-weight: bold;
+    font-size: 0.9rem;
+}

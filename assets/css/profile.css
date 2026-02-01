@@ -1,0 +1,38 @@
+#profile-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+#userdata-container {
+    width: fit-content; 
+    min-width: 280px;
+    margin: 25px auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-row {
+    display: flex;
+    align-items: center; 
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.profile-label {
+    /* MAGIE : Largeur fixe pour forcer l'alignement de la colonne de droite */
+    flex: 0 0 160px; 
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.profile-value {
+    flex: 1; /* Prend tout l'espace restant */
+    
+
+}
