@@ -198,6 +198,10 @@ input:hover{
     outline: none;
 }
 
+/* Style pour les inputs en erreur */
+.input-error {
+    border-color: #e74c3c !important;
+}
 
 /*-------------------*/
 /*----- ALERTES -----*/

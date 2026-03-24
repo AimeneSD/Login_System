@@ -1,7 +1,10 @@
 <?php
 
 require_once 'models/UserModel.php';
-require_once 'models/ErrorModel.php'
+require_once 'models/ErrorModel.php';
+
+// Define the error input class based on whether a session error exists
+$ErrorInputClass = isset($_SESSION['error']) ? 'input-error' : '';
 
 ?>
 
